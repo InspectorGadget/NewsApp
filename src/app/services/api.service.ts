@@ -9,7 +9,7 @@ import { publishLast, refCount } from 'rxjs/operators';
 export class ApiService {
 
   private apiUrl = 'https://newsapi.org/v2/top-headlines?country=my&category=business&apiKey=';
-  private apiKey = 'f30701e6bf5d4b40b2da36616ed2c323';
+  private apiKey = 'YourKey';
 
   constructor(
     private http: HttpClient
